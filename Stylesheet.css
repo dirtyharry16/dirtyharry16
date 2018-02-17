@@ -6,12 +6,12 @@ background-image:"dirtyharry16.github.io/bgimage.jpg";
 
 .top {
 width:100%
-height:50%
+height:25%
 
-.sidebar {
+.side {
     width: 25%;
     float: left;
-	padding-left:50px
+    padding-left:50px
 }
 .body {
     width: 75%;
