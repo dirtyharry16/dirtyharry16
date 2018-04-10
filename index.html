@@ -18,4 +18,28 @@ Sorry, your browser does not support inline SVG.
   </body>
 <!-- https://www.w3schools.com/html/html_comments.asp -->
 
-</html?>
+<br>
+  <html>
+<head>
+<body>
+
+<input id= "mP">
+<button type="button" onclick="myFunction()">Submit</button>
+<p id="out"></p>
+
+<script>
+function myFunction() {
+var mealPrice = document.getElementById("mP").value;
+var total;
+var tax=parseInt(mealPrice)*.06;
+var tip=parseInt(mealPrice)*.2;
+
+total = parseInt(mealPrice) + tax + tip;
+document.getElementById("out").innerHTML = total;
+}
+</script>
+</body>
+</html>
+
+  
+  </html?>
